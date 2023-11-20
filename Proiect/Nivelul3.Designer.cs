@@ -128,12 +128,12 @@ namespace Proiect
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Baskerville Old Face", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(84, 38);
+            this.label1.Location = new System.Drawing.Point(40, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(764, 43);
+            this.label1.Size = new System.Drawing.Size(808, 100);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Dacă veți câștiga acest joc, Daenerys v-a învinge toți inamicii și va conduce Wes" +
-    "teros-ul!\r\n";
+            this.label1.Text = "Dacă veți câștiga acest joc de X și O, Daenerys v-a învinge toți inamicii și va c" +
+    "onduce Westeros-ul!\r\n\r\n";
             // 
             // Nivelul3
             // 
