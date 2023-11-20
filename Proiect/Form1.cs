@@ -16,5 +16,33 @@ namespace Proiect
         {
             InitializeComponent();
         }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form2 = new Nivelul1();
+            form2.ShowDialog();
+            if(Nivelul1.ok == 1)
+                button2.Enabled = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var form3 = new Nivelul2();
+            form3.ShowDialog();
+            if (Nivelul2.ok == 1)
+                button3.Enabled = true;
+        }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var form4 = new Nivelul3();
+            form4.Show();
+        }
     }
 }
